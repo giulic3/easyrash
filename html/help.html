@@ -1,0 +1,210 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">		 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+<style>
+
+	body {
+		background-color:#E9E9E9;
+  		font-family: "Nunito", sans-serif;
+	}
+	
+	h1 {
+		font-family: "Satisfy", sans-serif;
+		color: #99D3DF;
+		font-size: 13vw;
+		font-weight: 200;
+		text-shadow: 2px 2px 2px #88BBD6;
+		position: relative;
+		top: 30px;
+		text-align: center;
+	}
+
+	h2 {
+		font-family: "Nunito", sans-serif;
+		color: #99D3DF;
+		font-size: 40px;
+		position: relative;
+		text-align: center;
+		font-weight: bold;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	
+	table {
+		color: #8C8C8C;
+	}
+
+	p {
+		font-family: "Nunito", sans-serif;
+		color: #8C8C8C;
+		font-size: 16px;
+		position: relative;
+	}
+	
+	.container-fluid {
+            padding-top:50px;
+	        padding-bottom: 50px;
+	        padding-left: 20px;
+	        padding-right: 20px;
+	        text-align: justified;
+	}
+
+    #title-container {
+    	padding-bottom: 60px;
+    }
+    
+    button {
+    	background-color: #88BBD6;
+		border: none;
+		font-size: 18px;
+		font-family: Nunito;
+		color: white;
+    }
+    
+    button:hover {
+    	color: white;
+    }
+</style>
+
+</head>
+<body>
+<button class="btn" type="submit" onclick="window.location.href='./main.php';">Go back to main page</button>
+<div class = "container">
+	<div id="title-container" class = "container"><h1>Tutorial</h1></div>
+
+	<div class="container">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Legend</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><span class="glyphicon glyphicon-floppy-disk"></span></td>
+					<td>Save your unsaved annotations (only available in Annotator Mode)</td>
+				</tr>
+				<tr>
+					<td><span class="glyphicon glyphicon-send"></span></td>
+					<td>Give your final judgement to the article (only available in Annotator Mode)</td>
+				</tr>
+				<tr>
+					<td><span class="glyphicon glyphicon-education"></span></td>
+					<td>Close the article (only available in Annotator Mode, for Chairs)</td>
+				</tr>
+				<tr>
+					<td><span class="glyphicon glyphicon-list"></span></td>
+					<td>To hide or show the sidebar with the list of all available papers</td>
+				</tr>
+				<tr>
+					<td><span class="glyphicon glyphicon-king"></span></td>
+					<td>This symbol means that you are Chair of the conference</td>
+				</tr>
+				<tr>
+					<td><span class="glyphicon glyphicon-send"></span></td>
+					<td>This symbol means that you, as a Chair, can close the conference</td>
+				</tr>
+				<tr>
+					<td><span class="glyphicon glyphicon-ok"></span></td>
+					<td>This symbol means that you already gave the final judgement to the article</td>
+				</tr>
+				<tr>
+					<td><span class="glyphicon glyphicon-pencil"></span></td>
+					<td>This symbol means that you are Reviewer for the article and you can comment it</td>
+				</tr>
+				<tr>
+					<td><span class="glyphicon glyphicon-thumbs-up"></span></td>
+					<td>This symbol means that you, as a Chair, accepted the article.</td>
+				</tr>
+				<tr>
+					<td><span class="glyphicon glyphicon-thumbs-down"></span></td>
+					<td>This symbol means that you, as a Chair, rejected the article.</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+    
+
+<div class="container-fluid">
+	<h2>Overview</h2>
+	<p> EasyRASH can be used in two different modes: Reader Mode and Annotator Mode. <br>
+	To switch from one to another, simply press on the button "Mode" in the navbar.
+	As a user, you can be a Reader, optionally a Reviewer for an article, or a Chair for a certain event.<br>
+	If you are a Reader the interface shall allow you to read all the available papers and see the annotations left. <br>
+	If you are a Reviewer, you have to comment and expresses an overall judgement on some articles. <br>
+	If you are a Chair, you can act like a Reviewer for all the articles of the conference in which you are Chair, plus you can decide 
+	the final state of an article (rejected or accepted) according to the comments of reviewers and close a conference, when every paper has been evaluated. 
+	<br>
+	
+	<h2>Frequently Asked Questions</h2>
+	
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Question</th>
+					<th>Answer</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>How can I change my password?</td>
+					<td>After you logged in the system, click on the "User" button on the right side of the navbar, and then on "Change password". The system will send you an email with instructions to change
+					the password.</td>
+				</tr>
+				<tr>
+					<td>I forgot my password. What can I do now?</td>
+					<td>Insert your email in the dedicated form field, in the login page. You will shortly receive an email with instructions to change your password.</td>
+				</tr>
+				<tr>
+					<td>How can I delete my account?</td>
+					<td>We're very sorry that you decided to leave us :(. 
+						To delete your account, while you're logged into the system, click on the "User" button on the right side of the navbar, and the on "Delete account". 
+					</td>
+				</tr>
+				<tr>
+					<td>How can I make annotations?</td>
+					<td>While you're in Annotator Mode, simply highlight the text you want to comment, write a comment in the modal and press "Submit". 
+					When you're done with commenting, press "Save" button. Note that saved annotations can't be modified anymore.</td>
+				</tr>
+				<tr>
+					<td>How can I see the comments left by other Reviewers?</td>
+					<td>Click on "Filters" button in the right-top corner of the page and choose "All" to display all annotations, or choose the name of a Reviewer to see his/her annotations.</td>
+				</tr>
+				<tr>
+					<td>How can I edit or delete an unsaved comment?</td>
+					<td>In Annotator Mode, click on the annotation that you want to edit/delete, change the text in the modal and press "Update" or simply press "Delete". Note that saved annotations can't be modified anymore.</td>
+				</tr>
+				<tr>
+					<td>How to give my final judgement?</td>
+					<td>In Annotator Mode, press "Final judgement" button, write (optionally) a global comment in the box, provide a rating from 1 to 5 and press "Accept" or "Reject" according to your evaluation of the article.</td>
+				</tr>
+				<tr>
+					<td>How can I close an article?</td>
+					<td>As a Chair, you have to wait for all the other Reviewers to have left their evaluation.
+					Then you can press "Close article" button. A modal will appear providing you with additional information and from there you can
+					express your opinion by clicking "Accept" or "Reject"
+					</td>
+				</tr>
+				<tr>
+					<td>How can I close a conference?</td>
+					<td>As a Chair, you can click on the Close Conference symbol (see the symbol legend) and you will be asked to close the event.
+					Note that a conference will remain open until all the papers that it contains won't be all closed.
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	
+	<p>For other questions and explanations, don't hesitate to contact the administrators (you can refer to the "About" section)</p>
+	</div>
+
+</div>
+</body>
+</html>

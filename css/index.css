@@ -1,0 +1,315 @@
+@import 'https://fonts.googleapis.com/css?family=Nunito' ;
+@import 'https://fonts.googleapis.com/css?family=Satisfy';
+
+
+/* -- Background colors -- */
+
+html {
+ background: #CDCDCD;
+}
+
+.navbar {
+	background-color: #88BBD6;
+}
+
+.navbar-default {
+	background-color: #88BBD6;
+}
+
+#intro {
+   background: #E9E9E9;
+}
+
+#services {
+    background: #CDCDCD;
+}
+
+/* -- "easyrash offers some unique..." -- */
+.description {
+	position: relative;
+	top: -30%;
+}
+
+#logo {
+    font-family: "Satisfy", sans-serif;
+    color: #99D3DF;
+    font-size: 13vw;
+    font-weight: 200;
+    text-shadow: 2px 2px 2px #88BBD6;
+    position: relative;
+    top: 30px;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+    color: #8C8C8C;
+    /*text-shadow: 2px 2px 4px white;*/
+    font-size: 22px;
+}
+
+.intro-section p {
+    text-shadow: 2px 2px 4px white;
+}
+
+/* for brief description placed below easyrash logo */
+#below-logo {
+
+	position: relative;
+	top: 50px;
+}
+/* -- Buttons -- */
+#button-tutorial {
+    padding: 15px;
+    font-family: "Satisfy", sans-serif;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    font-size: 25px;
+    /*
+    -moz-box-shadow: 0px 10px 14px -7px #276873;
+    -webkit-box-shadow: 0px 10px 14px -7px #276873;
+    box-shadow: 0px 10px 14px -7px #276873;
+    */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #99d3df), color-stop(1, #99d3df));
+    background: -moz-linear-gradient(top, #99d3df 5%, #99d3df 100%);
+    background: -webkit-linear-gradient(top, #99d3df 5%, #99d3df 100%);
+    background: -o-linear-gradient(top, #99d3df 5%, #99d3df 100%);
+    background: -ms-linear-gradient(top, #99d3df 5%, #99d3df 100%);
+    background: linear-gradient(to bottom, #99d3df 5%, #99d3df 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#99d3df', endColorstr='#99d3df',GradientType=0);
+    background-color: #99d3df;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    /*text-shadow: 0px 1px 0px #3d768a;*/
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    top: 100px;
+    border: none;
+}
+
+#button-tutorial:active {
+    box-shadow : 0px 3px 14px 7px ##E9E9E9;
+    -moz-box-shadow: 0px 3px 14px -7px ##E9E9E9;
+    -webkit-box-shadow: 0px 3px 14px -7px ##E9E9E9;
+
+    top: 103px;
+}
+
+.btn {
+    background-color:  #99D3DF;
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn-primary {
+	background-image: #99d3df ;
+}
+
+#button-login {
+    position: relative;
+    top: 20px;
+}
+
+#login-submit, #reg-submit, #forgot-submit, #login-submit:visited, #reg-submit:visited, #forgot-submit:visited, #login-submit:active, #reg-submit:active, #forgot-submit:active{
+
+    border: none;
+    font-family: "Nunito";
+    background-color: #b1dee7; /*#88BBD6;*/
+    background-image: linear-gradient(to bottom,#99d3df, #99d3df);
+}
+
+#login-submit:hover, #reg-submit:hover, #forgot-submit:hover {
+    background-image: linear-gradient(to bottom,#b1dee7, #b1dee7);
+} 
+
+#forgot-submit {
+
+}
+/* -- Login --*/
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8C8C8C;
+}
+
+a {
+	font-family: "Nunito";
+	font-size: 18px;
+}
+form {
+
+    font-family : "Nunito";
+    font-weight: 200px;
+    color: grey;
+}
+
+.show {
+
+    color: grey;
+    font-weight: 550;
+    font-family: 'Nunito';
+}
+
+
+#reg-form + .panel-body{
+    position: relative;
+    bottom: 20px;
+}
+
+.panel-default {
+    font-family: 'Nunito';
+    width: 130%; height:110%;
+    border: black;
+}
+
+.panel {
+    font-family: 'Nunito';
+}
+.panel-body {
+    border: none;
+    background: #E9E9E9;
+    border: black;
+    width: 400px;
+
+
+}
+
+#log-form ~ p {
+	font-size: 18px;
+}
+
+.panel-default > .panel-heading {
+    background: black;
+    border: black;
+}
+
+.panel-title {
+    font-family: 'Nunito';
+    color: white;
+}
+
+
+
+#reg-form + .panel-body {
+    display: none;
+
+}
+
+footer p {
+	font-size: 14px;
+	color: black;
+}
+
+footer {
+    display: block;
+}
+
+.navbar-nav {
+    overflow: hidden;
+}
+
+.navbar-nav > li > a {
+    display: block!important;
+  float: right!important;
+}
+
+.navbar-service {
+    color: #777;
+    float: left;
+        height: 50px;
+        padding: 15px 15px;
+        font-size: 14px;
+        line-height: 20px;
+}
+
+.navbar-service:hover{
+    color: #333;
+    background-color: transparent;
+    text-decoration: none;
+}
+.navbar-service:focus {
+    color: #777;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* -- Fonts -- */
+
+@media (max-width: 700px) { 
+    #logo {
+        font-size: 25vw;
+        top: 0px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    #home-nav {
+
+    }
+
+    #button-tutorial {
+        padding: 7px;
+    }
+} 
+
+@media (max-width: 480px) { 
+    .panel-body {
+        width: 100%;
+    
+    }
+
+}
+
+@media (min-width: 480px) { 
+    .panel-body {
+        position : relative;
+        left : 50%;
+        margin-left: -200px;
+    }
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 767px) {
+    #button-tutorial {
+    	display: none;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+
+	#intro .row {
+		position: absolute;
+		top: 20%;
+		right: 2%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+.intro-section > .container {
+    height: 100%;
+}

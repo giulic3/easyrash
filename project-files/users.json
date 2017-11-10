@@ -1,0 +1,262 @@
+{
+    "Jessica Jones <jessica.jones@alias.com>": {
+        "given_name": "Jessica",
+        "family_name": "Jones",
+        "email": "jessica.jones@alias.com",
+        "pass": "$2y$05$CfUf5dm1XrbXZEa8gX1Y5.53tdqrSGvaEz9UeBSrG1uJ5u6IaCQTG",
+        "sex": "female",
+        "hash": "ebd9629fc3ae5e9f6611e2ee05a31cef ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Vanessa Ives <vanessa.ives@hell.com>": {
+        "given_name": "Vanessa",
+        "family_name": "Ives",
+        "email": "vanessa.ives@hell.com",
+        "pass": "$2y$05$dpBvjM4BmuCMpvXpLZYBqeB33IO1Go5YvrdK.vP7.rSvI62cINGDu",
+        "sex": "female",
+        "hash": "e2230b853516e7b05d79744fbd4c9c13 ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Lyra Belacqua <lyra.belacqua@ox.com>": {
+        "given_name": "Lyra",
+        "family_name": "Belacqua",
+        "email": "lyra.belacqua@ox.com",
+        "pass": "$2y$05$WJkI2P1G91hWw1psmRB8TOOsN.NMGjLon1EfiVm95AxuWjunNV6i.",
+        "sex": "female",
+        "hash": "3df1d4b96d8976ff5986393e8767f5b2 ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Alice Liddell <alice.liddell@whiterabbit.com>": {
+        "given_name": "Alice",
+        "family_name": "Liddell",
+        "email": "alice.liddell@whiterabbit.com",
+        "pass": "$2y$05$lruxKDFtjqkS5FoN4af3quTYz0G1OuMlrYXosEOnzKv7V5v2rLXbu",
+        "sex": "female",
+        "hash": "d490d7b4576290fa60eb31b5fc917ad1",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Arthur Dent <arthur.dent@fish.com>": {
+        "given_name": "Arthur",
+        "family_name": "Dent",
+        "email": "arthur.dent@fish.com",
+        "pass": "$2y$05$D2PyC9BXJqkU7xsAqcvAYuyXopoQ.yVX7h9A\/ajJtVrI4KjymTusC",
+        "sex": "male",
+        "hash": "6364d3f0f495b6ab9dcf8d3b5c6e0b01 ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Arabella Strange <arabella.strange@york.com>": {
+        "given_name": "Arabella",
+        "family_name": "Strange",
+        "email": "arabella.strange@york.com",
+        "pass": "$2y$05$ROSrrLQ2pxccYfn2ouTxdOsc6BJN91QjHUkJ47HlTd0zlaHDWmohG",
+        "sex": "female",
+        "hash": "3328bdf9a4b9504b9398284244fe97c2 ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "John Constantine <john.constantine@hell.com>": {
+        "given_name": "John",
+        "family_name": "Constantine",
+        "email": "john.constantine@hell.com",
+        "pass": "$2y$05$RmThbEZLqKjTI3eoz09N3.OEGv.JJg4BfK7itDibexDWs3SqbQ\/2S",
+        "sex": "male",
+        "hash": "ebd9629fc3ae5e9f6611e2ee05a31cef ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Fabio Vitali <fabio.vitali@unibo.it>": {
+        "given_name": "Fabio",
+        "family_name": "Vitali",
+        "email": "fabio.vitali@unibo.it",
+        "pass": "$2y$05$GaftMt2ENP0JtYsoL6AOoOSjflOMuMeVUAz4GRlQijwRPe0SpL8vi",
+        "sex": "male",
+        "hash": "ffd52f3c7e12435a724a8f30fddadd9c",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Angelo Di Iorio <angelo.diiorio@unibo.it>": {
+        "given_name": "Angelo",
+        "family_name": "Di Iorio",
+        "email": "angelo.diiorio@unibo.it",
+        "pass": "$2y$05$AS85iH2wBRflZGRgnvbXUOgGsEP0t\/DYW9olYbLRqJcEPRXtBU4K.",
+        "sex": "male",
+        "hash": "eb160de1de89d9058fcb0b968dbbbd68",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Silvio Peroni <silvio.peroni@unibo.it>": {
+        "given_name": "Silvio",
+        "family_name": "Peroni",
+        "email": "silvio.peroni@unibo.it",
+        "pass": "$2y$05$xAHBX1MPYU5ZciG4htMg6e.TKfLSVGMewyLejIX8QIQjmoMUWlDF2",
+        "sex": "male",
+        "hash": "42998cf32d552343bc8e460416382dca ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Alejandra Gonzalez-Beltran <alejandra.gonzalezbeltran@example.com>": {
+        "given_name": "Alejandra",
+        "family_name": "Gonzalez-Beltran",
+        "email": "alejandra.gonzalezbeltran@example.com",
+        "pass": "$2y$05$VAAVZ6UQV4B7wiWcGfJlk.bpjtaiVyGG4OnxyK6M9GcrRIBctDO\/y",
+        "sex": "female",
+        "hash": "01386bd6d8e091c2ab4c7c7de644d37b",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Alessia Bardi <alessia.bardi@example.com>": {
+        "given_name": "Alessia",
+        "family_name": "Bardi",
+        "email": "alessia.bardi@example.com",
+        "pass": "$2y$05$M6V8Xx3kfEKZgMoXj1wQ9.1yYFMQgFVkeHPJ\/JrEbQ512fbyCSv\/m",
+        "sex": "female",
+        "hash": "8065d07da4a77621450aa84fee5656d9 ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Alex Wade <alex.wade@example.com>": {
+        "given_name": "Alex",
+        "family_name": "Wade",
+        "email": "alex.wade@example.com",
+        "pass": "$2y$05$IdJ3hnJVxJHxH38uEDkuGOoG0rpQ4kSvCNEXcLJjonJEiJavuUkjy",
+        "sex": "male",
+        "hash": "a8c88a0055f636e4a163a5e3d16adab7 ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Anastasia Dimou <anastasia.dimou@example.com>": {
+        "given_name": "Anastasia",
+        "family_name": "Dimou",
+        "email": "anastasia.dimou@example.com",
+        "pass": "$2y$05$CFCEXNUoABm78frqDSlCN.5PFBWdM9Gd2AIQGCYHy38gnaC.BFo\/e",
+        "sex": "female",
+        "hash": "5d44ee6f2c3f71b73125876103c8f6c4",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Andrea Nuzzolese <andrea.nuzzolese@example.com>": {
+        "given_name": "Andrea",
+        "family_name": "Nuzzolese",
+        "email": "andrea.nuzzolese@example.com",
+        "pass": "$2y$05$ikW41PvBi1vAgiygoFEESuZOqrfoRWwCDzSAuA5\/wF034\/JyV5tUa",
+        "sex": "male",
+        "hash": "f9028faec74be6ec9b852b0a542e2f39 ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Francesco Osborne <francesco.osborne@example.com>": {
+        "given_name": "Francesco",
+        "family_name": "Osborne",
+        "email": "francesco.osborne@example.com",
+        "pass": "$2y$05$cCmgYrGYbfwaBZmwJc1vEuqU\/5ISAWzIwnczO4lVE0tUTYVochXzy",
+        "sex": "male",
+        "hash": "ab233b682ec355648e7891e66c54191b ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Francesco Poggi <francesco.poggi5@unibo.it>": {
+        "given_name": "Francesco",
+        "family_name": "Poggi",
+        "email": "francesco.poggi5@unibo.it",
+        "pass": "$2y$05$riIG8y975H0QwjqGf8oOpeskRv1WW\/tIGGule7NWRApW\/lizneJOi",
+        "sex": "male",
+        "hash": "98f13708210194c475687be6106a3b84 ",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Jun Zhao <j.zhao5@example.com>": {
+        "given_name": "Jun",
+        "family_name": "Zhao",
+        "email": "j.zhao5@example.com",
+        "pass": "$2y$05$wVOZ2XW7883HnrKJL4M0vO8t\/A4K\/ZKRg\/ejhTb0I46rV.mHzn8Sm",
+        "sex": "female",
+        "hash": "a8ecbabae151abacba7dbde04f761c37",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Christoph Lange <math.semantic.web@example.com>": {
+        "given_name": "Christoph",
+        "family_name": "Lange",
+        "email": "math.semantic.web@example.com",
+        "pass": "$2y$05$U9Vnr678AcwX3PUNNtbCFuxakAuRDbKj.xty8XBQoeuXc2zV1j0E6",
+        "sex": "male",
+        "hash": "73278a4a86960eeb576a8fd4c9ec6997",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Michael Smith <mike@example.com>": {
+        "given_name": "Michael",
+        "family_name": "Smith",
+        "email": "mike@example.com",
+        "pass": "$2y$05$KS4RpRFifiMmxib0RG4ZwuVizAjSUX.915CHKGDJRMn1fdF3TGCgi",
+        "sex": "male",
+        "hash": "e57c6b956a6521b28495f2886ca0977a",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Paul Groth <p.groth@example.com>": {
+        "given_name": "Paul",
+        "family_name": "Groth",
+        "email": "p.groth@example.com",
+        "pass": "$2y$05$MEc1DWdji0MpT82WT6v3RuZXM32qa7V5fn7ekq1hNftrxCkyJ2.4K",
+        "sex": "male",
+        "hash": "a96b65a721e561e1e3de768ac819ffbb",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Paolo Ciancarini <paolo.ciancarini@example.com>": {
+        "given_name": "Paolo",
+        "family_name": "Ciancarini",
+        "email": "paolo.ciancarini@example.com",
+        "pass": "$2y$05$FAyIa2GE62oDrTGaUmVAQes94o9nGicCAXYcUfbziwYyuwwLN2bUi",
+        "sex": "male",
+        "hash": "d6c651ddcd97183b2e40bc464231c962",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Paolo Manghi <paolo.manghi@example.com>": {
+        "given_name": "Paolo",
+        "family_name": "Manghi",
+        "email": "paolo.manghi@example.com",
+        "pass": "$2y$05$1q340mOG9TwpjyoZsXy4aOegmEqiGBuEJtevws6\/.eny5F380iMSm",
+        "sex": "male",
+        "hash": "22fb0cee7e1f3bde58293de743871417",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Raffaele Giannella <raffaele.giannella@example.com>": {
+        "given_name": "Raffaele",
+        "family_name": "Giannella",
+        "email": "raffaele.giannella@example.com",
+        "pass": "$2y$05$V2jjXUZzRxP96eGp24mFuOiuTHSvnHZyoTPsXN2xTZw9CPgyh0s9W",
+        "sex": "male",
+        "hash": "c6e19e830859f2cb9f7c8f8cacb8d2a6",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Tobias Kuhn <tokuhn@example.com>": {
+        "given_name": "Tobias",
+        "family_name": "Kuhn",
+        "email": "tokuhn@example.com",
+        "pass": "$2y$05$AvyTcS9uB0WtwBhflZuFoOVCiGWt62H4Liu9zRN7OUqtEYUbLE\/na",
+        "sex": "male",
+        "hash": "c2aee86157b4a40b78132f1e71a9e6f1",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    },
+    "Sahar Vahdati <vahdati@example.com>": {
+        "given_name": "Sahar",
+        "family_name": "Vahdati",
+        "email": "vahdati@example.com",
+        "pass": "$2y$05$Rjn02GqGg3Zn5XAjozBeguNnGFtkmwsbeSEA4zo9tVQ.\/q7yrkxE6 ",
+        "sex": "female",
+        "hash": "6ecbdd6ec859d284dc13885a37ce8d81",
+        "creation_date": "1970-01-01 00:00:00",
+        "active": "yes"
+    }
+}

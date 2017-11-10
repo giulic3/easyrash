@@ -1,0 +1,186 @@
+[
+    {
+        "url": "wade-savesd2016.html",
+        "conf": "IWCC 2016",
+        "status": "under review",
+        "locked": false,
+        "reviewedby": {
+            "jessica.jones@alias.com": true,
+            "vanessa.ives@hell.com": true,
+            "fabio.vitali@unibo.it": false,
+            "silvio.peroni@unibo.it": false,
+            "angelo.diiorio@unibo.it": true
+        },
+        "commentedby": {
+            "jessica.jones@alias.com": true,
+            "vanessa.ives@hell.com": true,
+            "fabio.vitali@unibo.it": true,
+            "angelo.diiorio@unibo.it": false,
+            "silvio.peroni@unibo.it": false
+        }
+    },
+    {
+        "url": "vahdati-savesd2016.html",
+        "conf": "IWCC 2016",
+        "status": "awaiting decision",
+        "locked": false,
+        "reviewedby": {
+            "jessica.jones@alias.com": true,
+            "vanessa.ives@hell.com": true,
+            "fabio.vitali@unibo.it": true,
+            "alice.liddell@whiterabbit.com": true,
+            "arthur.dent@fish.com": true
+        },
+        "commentedby": {
+            "jessica.jones@alias.com": true,
+            "vanessa.ives@hell.com": false,
+            "fabio.vitali@unibo.it": true,
+            "alice.liddell@whiterabbit.com": false,
+            "arthur.dent@fish.com": false
+        }
+    },
+    {
+        "url": "diiorio-www2016.html",
+        "conf": "IWCC 2016",
+        "status": "under review",
+        "locked": false,
+        "reviewedby": {
+            "jessica.jones@alias.com": false,
+            "vanessa.ives@hell.com": false,
+            "fabio.vitali@unibo.it": false,
+            "arabella.strange@york.com": false,
+            "john.constantine@hell.com": false
+        },
+        "commentedby": {
+            "jessica.jones@alias.com": false,
+            "vanessa.ives@hell.com": false,
+            "fabio.vitali@unibo.it": false,
+            "arabella.strange@york.com": true,
+            "john.constantine@hell.com": false
+        }
+    },
+    {
+        "url": "peroni-rashdoc2016.html",
+        "conf": "IWCC 2016",
+        "status": "under review",
+        "locked": true,
+        "reviewedby": {
+            "jessica.jones@alias.com": false,
+            "vanessa.ives@hell.com": false,
+            "fabio.vitali@unibo.it": false,
+            "lyra.belacqua@ox.com": false,
+            "arthur.dent@fish.com": false
+        },
+        "commentedby": {
+            "jessica.jones@alias.com": true,
+            "vanessa.ives@hell.com": false,
+            "fabio.vitali@unibo.it": false,
+            "lyra.belacqua@ox.com": false,
+            "arthur.dent@fish.com": false
+        }
+    },
+    {
+        "url": "kuhn-savesd2015.html",
+        "conf": "IWCC 2016",
+        "status": "rejected",
+        "locked": false,
+        "reviewedby": {
+            "jessica.jones@alias.com": true,
+            "vanessa.ives@hell.com": true,
+            "fabio.vitali@unibo.it": true,
+            "silvio.peroni@unibo.it": true,
+            "arabella.strange@york.com": true
+        },
+        "commentedby": {
+            "jessica.jones@alias.com": false,
+            "vanessa.ives@hell.com": false,
+            "fabio.vitali@unibo.it": false,
+            "silvio.peroni@unibo.it": false,
+            "arabella.strange@york.com": false
+        }
+    },
+    {
+        "url": "groth-savesd2015.html",
+        "conf": "IGBC 2016",
+        "status": "accepted",
+        "locked": false,
+        "reviewedby": {
+            "arabella.strange@york.com": true,
+            "john.constantine@hell.com": true,
+            "vanessa.ives@hell.com": true,
+            "lyra.belacqua@ox.com": true
+        },
+        "commentedby": {
+            "arabella.strange@york.com": false,
+            "john.constantine@hell.com": false,
+            "vanessa.ives@hell.com": true,
+            "lyra.belacqua@ox.com": false
+        }
+    },
+    {
+        "url": "diiorio-savesd2015.html",
+        "conf": "IGBC 2016",
+        "status": "awaiting decision",
+        "locked": false,
+        "reviewedby": {
+            "arabella.strange@york.com": true,
+            "john.constantine@hell.com": true,
+            "arthur.dent@fish.com": true
+        },
+        "commentedby": {
+            "arabella.strange@york.com": true,
+            "john.constantine@hell.com": false,
+            "arthur.dent@fish.com": true
+        }
+    },
+    {
+        "url": "diiorio-iswc2015.html",
+        "conf": "IGBC 2016",
+        "status": "awaiting decision",
+        "locked": false,
+        "reviewedby": {
+            "arabella.strange@york.com": true,
+            "john.constantine@hell.com": true,
+            "jessica.jones@alias.com": true,
+            "vanessa.ives@hell.com": true
+        },
+        "commentedby": {
+            "arabella.strange@york.com": false,
+            "john.constantine@hell.com": true,
+            "jessica.jones@alias.com": false,
+            "vanessa.ives@hell.com": true
+        }
+    },
+    {
+        "url": "ciancarini-eswc2014.html",
+        "conf": "IGBC 2016",
+        "status": "under review",
+        "locked": false,
+        "reviewedby": {
+            "arabella.strange@york.com": false,
+            "john.constantine@hell.com": false,
+            "jessica.jones@alias.com": false
+        },
+        "commentedby": {
+            "arabella.strange@york.com": false,
+            "john.constantine@hell.com": false,
+            "jessica.jones@alias.com": false
+        }
+    },
+    {
+        "url": "bardi-savesd2015.html",
+        "conf": "IGBC 2016",
+        "status": "under review",
+        "locked": false,
+        "reviewedby": {
+            "arabella.strange@york.com": true,
+            "john.constantine@hell.com": false,
+            "vanessa.ives@hell.com": false
+        },
+        "commentedby": {
+            "arabella.strange@york.com": true,
+            "john.constantine@hell.com": false,
+            "vanessa.ives@hell.com": true
+        }
+    }
+]

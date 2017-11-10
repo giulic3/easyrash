@@ -1,0 +1,443 @@
+@import 'https://fonts.googleapis.com/css?family=Nunito' ;
+@import 'https://fonts.googleapis.com/css?family=Satisfy';
+
+/**********************************************************************************************************************************************/
+/*REGOLE GENERALI*/
+
+.footer {
+	position: static !important;
+}
+
+a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+a:visited {
+	color: black;
+}
+
+html {
+  	overflow-y: scroll !important;
+  	overflow-x: visible;
+}
+
+p {
+	font-size: 18px;
+}
+
+#warning {
+	width: 50%;
+	height: 90%;
+	position: relative;
+	right: -20%;
+	margin-bottom: 0px;
+}
+
+/*?*/
+.label-default {
+	padding: 10px;
+	display: block;
+	font-size: 18px;
+	font-family: Nunito;
+	color: white;
+}
+
+/**********************************************************************************************************************************************/
+/*RIGUARDO ALLA NAV BAR*/
+
+/*Dropdown menu per user*/
+.dropdown-menu {
+	color: #333;
+	display: none;
+	position: absolute;
+	background-color: #88BBD6;
+	min-width: 200px;
+	text-align: center;
+	padding: 20px;
+}
+
+.dropdown-menu h4{
+	font-size: 150%;
+}
+
+.dropdown-menu p{
+	font-size: 110%;
+}
+
+.dropdown-menu a{
+	color: #333;
+	font-size: 110%;
+}
+
+#wrapper {
+	position: fixed; 
+	top: 90px;
+	padding-left: 30vw;
+}
+
+#about ~ .dropdown-menu {
+	width: 280px;
+	height: 130px;
+	position: absolute;
+	left: auto;
+
+} 
+
+#user-panel ~ .dropdown-menu {
+	position: absolute;
+	left: auto;
+}
+
+.dropdown-menu {
+
+}
+
+#switch-mode {
+	display: none;
+}
+
+/**********************************************************************************************************************************************/
+/*RIGUARDO ALLA SIDE BAR*/
+
+.sidebar-nav {
+	width: inherit;
+}
+
+.sidebar-nav li a {
+	display: inline;
+}
+
+#sidedoc {
+	min-height: 450px;
+	width: 30vw;
+	overflow: auto;
+}
+
+#sidebar-wrapper {
+	background: #88BBD6;
+	width: 30vw;
+}
+#sidebar-wrapper a {
+	color: white;
+
+}
+
+.conf {
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.papers-list > li > a {
+	font-size: 17px;
+}
+
+
+ul {
+	display: block;
+	list-style-type: none;
+	padding: 0;
+	margin: 10px;
+	
+}
+
+ul#events-list > li {
+	font-size: 18px;
+	color: white;
+	width: 30vw;
+}
+
+#events-list > li > ul {
+	font-size: 15px;
+	color: white;
+}
+
+#events-list {
+	padding-top: 20px;	
+	height: 91%;
+	overflow-y: auto;
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.sidebar-nav li {
+    text-indent: 0px;
+    line-height: 35px;
+}
+
+.papers-list{
+	list-style-type: disc;
+	padding-left: 10px;
+	padding-right:5px;
+}
+
+.conf {
+	display: inline;
+}
+
+/**********************************************************************************************************************************************/
+/*RIGURARDO ALL'AREA PER I DOCUMENTI*/
+
+body {
+	background-color: #E9E9E9;
+	font-family: Nunito;
+	margin-bottom: 0px !important;
+}
+
+#docarea {
+	overflow-y: auto; /*settare a hidden per nasconder scrollbar*/
+	height: 75vh;
+	padding-bottom: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 100%;
+	
+}
+
+/*per allineare le sezioni dei doc rash*/
+section.container {
+	margin-left: 0;
+	padding-left: 0;
+	width: 100%;
+}
+
+#doc-header {
+	margin-left: 0;
+	padding-left: 0;
+	width: 100%;
+}
+
+/*stile per il titolo del doc caricato*/
+#doc-header h1.title {
+	padding-bottom: 25px;
+	width: auto;
+}
+
+section[role='doc-abstract'] {
+	width: auto;
+}
+
+/*per il bottone che apre/chiude la side-bar*/
+#menu-toggle {
+	font-size: 30px;
+	color: #777;
+}
+
+#menu-toggle:hover{
+	color: #333;
+	background-color: transparent;
+ 	cursor:pointer;
+}
+
+#menu-toggle:focus {
+	color: #777;
+	background-color: transparent;
+}
+
+.glyphicon.glyphicon-list {
+	color: #88BBD6;
+}
+
+/*bottoni nella doc area*/
+#save-button, #judgement-button, #close-button, #change-password-button, #delete-account-button, #show-unsaved-button, #annFilter {
+	background-color: #88BBD6;
+	border: none;
+	font-size: 18px;
+	font-family: Nunito;
+	color: white;
+}
+
+#button-div {
+	text-align:center; 
+	position:relative; 
+	top:20px; 
+	display: none;
+}
+
+#annotator-div, #chair-div{
+	position:relative;
+	display:inline;
+}
+
+/*bottone per i filti*/
+.btn-group, .btn-group-vertical {
+	top: 0px;
+	right: 0px;
+	padding: 15px;
+	position: absolute;
+	padding-top: 20px;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	text-decoration: none;
+	background-color: #88BBD6;
+	border: none;
+	color: white;
+}
+
+#annFilter {
+	font-size: 120%;
+	border-radius: 5px;
+	position: relative;
+	left: -80px;
+}
+#annFilter ~ .dropdown-menu {
+	left: -175px;
+}
+/*?*/
+.close-conference {
+	cursor: pointer;
+}
+
+#page-content-wrapper {
+	/*left: 80px;*/
+	width: 70vw;
+	padding: 10px:
+	padding-top: 40px;
+}
+/**********************************************************************************************************************************************/
+/*MODAL*/
+
+#judgement-modal{
+	display:none;
+	font-family: Nunito;
+}
+
+#modal-body-close{
+	text-align:center;
+	position:relative;
+}
+
+annotation-modal {
+	position: relative;
+	left: 50%;
+}
+
+.modal-backdrop {
+	z-index: -1 !important;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.modal-open {
+	padding-right: 0 !important;
+}
+
+#user-panel-change-password {
+	color: white;
+}
+
+#user-panel-delete-account {
+	color: white;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 767px) {
+
+	#sidedoc{
+		width: 100vw;
+	}
+
+	#wrapper{
+		padding-left: 0vw;
+	}
+
+	ul#events-list > li{
+		width: 100vw;
+	}
+
+	#sidebar-wrapper {
+		width: 100vw;
+	}
+
+	#page-content-wrapper {
+		padding: 0px;
+		width: 0vw;
+	}
+	
+	#docarea {
+		height: 65vh;
+	}
+
+	.btn-group {
+		padding: 0px;
+	}
+	
+	#user-panel ~ .dropdown-menu > div {
+		background-color: #e7e7e7;
+		position: relative;
+		left: 200px;
+		top: -50%;
+		padding: 5px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	
+	.alert-warning {
+		width: 100vw;
+		position: relative;
+		left: -80px;
+	}
+}
+
+@media only screen and (max-width: 359px){
+	#docarea {
+		height: 50vh;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	#docarea {
+		height: 70vh;
+	}
+	#page-content-wrapper {
+		height: 100vh;
+		width: 60vw;
+	}
+	
+	#sidebar-wrapper {
+		width: 40vw;
+	}
+
+	#sidedoc{
+		width: 40vw;
+	}
+
+	#wrapper{
+		padding-left: 40vw;
+	}
+
+	ul#events-list > li{
+		width: 40vw;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	#docarea {
+		height: 70vh;
+	}
+	#page-content-wrapper {
+		height: 100vh;
+	}
+		
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+/**********************************************************************************************************************************************/
